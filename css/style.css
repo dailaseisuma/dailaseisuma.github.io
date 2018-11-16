@@ -1,0 +1,59 @@
+	.header{
+		background-color: orange;
+		height: 40px;
+	}
+	.footer{
+		background-color: yellow;
+	}
+	.left{
+		background-color: red;
+		width: 100px;
+		float: left;
+	}
+	.main{
+		background-color: pink;
+		width: 560px;
+		float: left;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: 'Playfair Display', serif;
+	}
+	.right{
+		background-color: red;
+		width: 100px;
+		float: left;
+	}
+	.box{
+		background-color: aquamarine;
+		width: 800px;
+		margin: 0px auto;
+	}
+#menu{
+	position: relative;
+	top: 10px;
+}
+#menu li a{
+	color:black;
+	text-decoration: none;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+#menu li{
+	list-style-type: none;
+	display: inline;
+}
+ul{
+	background-color: red;
+}
+li{
+	background-color: purple;
+}
+p{
+	text-align: justify;
+}
+.active{
+	background-color: lightyellow;
+}
+#menu li:hover{
+	background-color: lightyellow;
+}
